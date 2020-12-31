@@ -16,3 +16,7 @@ go run hello.go
 
 ### Create a Go Module
 - https://golang.org/doc/tutorial/create-module
+```
+go build
+./hello
+```
