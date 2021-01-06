@@ -20,3 +20,9 @@ go run hello.go
 go build
 ./hello
 ```
+
+### Error handling
+- https://golang.org/doc/tutorial/handle-errors
+```
+go run hello.go
+```
