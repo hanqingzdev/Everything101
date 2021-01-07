@@ -36,9 +36,16 @@ go run hello.go
 go build
 for i in (seq 1 5); ./hello; end
 ```
-
 ### Passing a slice: Map, for, range
 - https://golang.org/doc/tutorial/greetings-multiple-people
 ```shell
 go run hello.go
+```
+
+### Unit testing
+- https://golang.org/doc/tutorial/add-a-test
+```shell
+cd ../greetings/
+go test
+go test -v
 ```
