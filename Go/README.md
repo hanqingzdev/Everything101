@@ -49,3 +49,12 @@ cd ../greetings/
 go test
 go test -v
 ```
+
+### Compile and install
+- https://golang.org/doc/tutorial/compile-install
+```shell
+cd ../hello
+go list -f '{{.Target}}'
+go install
+hello
+```
