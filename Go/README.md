@@ -37,3 +37,8 @@ go build
 for i in (seq 1 5); ./hello; end
 ```
 
+### Passing a slice: Map, for, range
+- https://golang.org/doc/tutorial/greetings-multiple-people
+```shell
+go run hello.go
+```
