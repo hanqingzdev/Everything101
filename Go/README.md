@@ -1,6 +1,8 @@
+## Hello World
+Directories: `greetings/`, `hello/`
 Following tutorial from https://golang.org/doc/tutorial/getting-started
 
-### Hello World
+### The 1st Hello World
 - https://golang.org/doc/tutorial/getting-started#code
 ```shell
 cd hello
@@ -57,4 +59,8 @@ cd ../hello
 go list -f '{{.Target}}'
 go install
 hello
+```
+## 101 Hello World
+```shell
+go run hello101.go
 ```
