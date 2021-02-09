@@ -62,5 +62,6 @@ hello
 ```
 ## 101 Hello World
 ```shell
+go get github.com/bradfitz/iter
 go run hello101.go
 ```
